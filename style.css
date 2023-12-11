@@ -84,6 +84,11 @@ body{
 .modify-btn{
     text-align: right;
 }
+.notepad-fixed{
+    position: sticky;
+    top: 100px;
+    background:white;
+}
 .add-btn , .add-btn-todo{
     width:98%;
     color: #1e1e1e;
@@ -91,6 +96,14 @@ body{
     background-color: #e6e4e4;
     border-radius: 10px;
     border: none;
+}
+.notes-data-div{
+overflow-y: auto;
+height: 320px;
+}
+.overflow-todo-list{
+    height:430px;
+    overflow-y: auto;
 }
 .todo-text-area-div{
     display: none;
